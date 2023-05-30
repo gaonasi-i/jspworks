@@ -4,10 +4,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>선언문과 표혀눔ㄴ 태그 사용</title>
+<title>선언문과 표현문 태그 사용</title>
 </head>
 <%!
-	//변수나 함수 선언(정의)
+	//전역 변수나 함수 선언(정의)
+	//static 역할(값을 공유, 누적함)
 	int count = 0;
 %>
 <body>

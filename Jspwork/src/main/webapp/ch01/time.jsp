@@ -12,6 +12,7 @@
 <script>
 	//디지털 시계
 	setInterval(myWatch, 1000);
+	
 	function myWatch(){
 		let date = new Date();
 		let now = date.toLocaleTimeString();
@@ -20,12 +21,12 @@
 </script>
 </head>
 <body>
-	<div id = "content">
+    <div id="content">
 		<h2>시간이란...</h2>
 		<h3>내일 죽을 것처럼 오늘을 살고<br>
 			영원히 살 것처럼 내일을 꿈꾸어라</h3>
-		<img src = "../resources/images/time.jpg" alt = "손시계">	
-		<p id = "demo"></p>
+		<img src="../resources/images/time.jpg" alt="손시계">
+		<p id="demo"></p>
 	</div>
 </body>
 </html>
