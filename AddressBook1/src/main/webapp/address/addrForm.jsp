@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>주소 추가</title>
+<title>주소록 등록</title>
 <link rel="stylesheet" href="../resources/css/style.css">
 </head>
 <body>
@@ -36,8 +36,8 @@
 				</tr>
 				<tr>
 					<td colspan="2">
-					<input type="submit" value="등록">
-					<input type="reset" value="취소">
+					    <input type="submit" value="등록">
+					    <input type="reset" value="취소">
 					</td>
 				</tr>
 			</table>
