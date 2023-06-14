@@ -5,7 +5,7 @@ import java.util.Date;
 
 public class Member implements Serializable{
 
-	private static final long serialVersionUID = 10L;
+	private static final long serialVersionUID = 3L;
 	
 	//필드
 	private String memberId;
@@ -17,7 +17,7 @@ public class Member implements Serializable{
 	//생성자
 	public Member() {}
 	
-	//getter, setter
+	//get, set 메서드
 	public String getMemberId() {
 		return memberId;
 	}
@@ -48,7 +48,4 @@ public class Member implements Serializable{
 	public void setJoinDate(Date joinDate) {
 		this.joinDate = joinDate;
 	}
-	
-	
-
 }
